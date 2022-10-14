@@ -97,8 +97,15 @@ Book(Book_ID, Title, Fiction_or_Non, Date, Publishing_Company, Rating)
 Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 
 ## Sample Data ##
-
-![Table 1](./Table1.png "Table 1")
+Book ID	|Book Name	                      |Author 	        |Genre	                    |Fiction/Non-Fiction	|Trope                             |Date Published| Published Company
+--------|---------------------------------|-----------------|---------------------------|---------------------|----------------------------------|--------------|--------------------
+001	    |A thousand splendid suns	        |Khaled Hosseini	|Historical Fiction         |Fiction	            |Romance, War, Female-Lead         |May 22, 2007	|Riverhead Books
+002	    |Verity	                          |Colleen Hoover	  |Thriller, Romance, Mystery	|Fiction	            |Manupulative partner	             |Dec 7, 2018	Grand |Central Publishing
+003	    |As Long as the Lemon Trees Grow	|Zoulfa Katouh	  |Young Adult	              |Fiction	            |Speculative Novel	               |Sept, 13, 2022|	Bloomsbury Publishing
+004	    |The fault in our stars	          |John Green	      |Romance                    |Fiction	            |Tragic Love story	               |January 10,2012|	Penguin Books
+005	    |It ends with us	                |Colleen Hoover	  |Romance	                  |Fiction	            |Domestic Violence, Childhood love |August 2, 2016|	Simon & Schuster
+006	    |The diary of a young girl	      |Anne Frank	      |Biography	                |Non-Fiction	        |Personal Narrative	               |June 25, 1947|	Contact Publishing
+007	    |The Civil War	                  |Shelby Foote	    |History	                  |Non-Fiction	        |War	                             |1958|	Random House Publisher
 
 |Genre | ID	Genre          |                             
 -------| ------------------|    
