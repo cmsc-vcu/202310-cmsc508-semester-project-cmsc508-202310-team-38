@@ -95,6 +95,52 @@ Book(Book_ID, Title, Fiction_or_Non, Date, Publishing_Company, Rating)
 
 Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 
+## Sample Data ##
+
+![Table 1](./Table1.png "Table 1")
+
+![Table 2](./Table2.png "Table 2")
+
+|Genre | ID	Genre          |                             
+-------| ------------------|    
+|G-0   |	Fantasy          |     
+|G-1	 | Adventure         |    
+|G-2	 | Romance           |    
+|G-3	 |  Contempary       |  
+|G-4	 | Dystopian         |     
+|G-5	 | Mystery           |    
+|G-6	 | Horror            |      
+|G-8	 | Paranormal        |
+|G-9	 | Historical Fiction|
+|G-10	 | Science Fiction   |
+|G-11	 | Children's        |
+
+Trope | ID	                            |Trope	Genre
+------|---------------------------------|------------
+T-1	  |Friends to lovers	              |Roman
+T-2	  |Eniemies to lovers	              |Romance
+T-3	  |Creepy Twins                     |Horror
+T-4	  |The evil doll that comes to life	|Horror
+T-5	  |The intelligent Psychopath	      |Thriller
+T-6	  |The cannibal	                    |Thriller
+T-7	  |Lost in a jungle	                |Adevnture
+T-9	  |The creepy fortuneteller killer	|Mystery
+T-10	|"Scooby-Doo" Hoax	              |Mystery
+T-11	|Demonic Possession	              |Paranormal
+T-12	|Time Travelling	                |Adventure
+T-13	|Time Travelling	                |Science Fiction
+T-14	|The marriage plot	              |Historical Fiction
+
+Author ID	| First Name |Last Name
+----------|------------|----------
+A-1	      |Khaled 	   |Hosseini
+A-2	      |Colleen 	   |Hoover
+A-3	      |Zoulfa 	   |Katouh
+A-4	      |John 	     |Green
+A-5	      |Colleen 	   |Hoover
+A-6	      |Robert 	   |Kiyosaki
+A-7	      |Anne 	     |Frank
+
 ## Authors ##
 
 MAISHA MAHMOOD
