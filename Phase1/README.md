@@ -36,8 +36,10 @@ The database can be accessed by any user across the globe. The book ratings will
 19. Count of books with genres “Romance” and “Mystery” together.
 20. Display the books published in 2007 by “Riverhead Books”
 
+## ER Diagram ##
 
-![ER Diagram](./Phase1/ERD.png "ER Diagram")
+![ER Diagram](./ERD.png "ER Diagram")
+
 ## Relational Schemas ##
 Publisher(Id, Name)
 
@@ -93,4 +95,3 @@ Book(Book_ID, Title, Fiction_or_Non, Date, Publishing_Company, Rating)
 
 Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 
-![MySql logo](./logo-mysql-170x115.png "mysql description")
