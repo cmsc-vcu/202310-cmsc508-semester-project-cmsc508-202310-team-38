@@ -95,3 +95,7 @@ Book(Book_ID, Title, Fiction_or_Non, Date, Publishing_Company, Rating)
 
 Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 
+## Authors ##
+
+MAISHA MAHMOOD
+PRAISY BIGUVU
