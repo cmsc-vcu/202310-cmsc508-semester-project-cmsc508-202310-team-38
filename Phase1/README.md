@@ -38,7 +38,8 @@ The database can be accessed by any user across the globe. The book ratings will
 
 ## ER Diagram ##
 
-![ER Diagram](./ERD.png "ER Diagram")
+![ER Diagram](./ERD.PNG "ER Diagram")
+
 
 ## Relational Schemas ##
 Publisher(Id, Name)
@@ -98,8 +99,6 @@ Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 ## Sample Data ##
 
 ![Table 1](./Table1.png "Table 1")
-
-![Table 2](./Table2.png "Table 2")
 
 |Genre | ID	Genre          |                             
 -------| ------------------|    
