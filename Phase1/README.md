@@ -42,17 +42,17 @@ The database can be accessed by any user across the globe. The book ratings will
 
 
 ## Relational Schemas ##
-Publisher(Id, Name)
+Publisher(Id<PK>, Name)
 
-Book(ID, ISBN, Title, Date, Rating ) 
+Book(ID<PK>, ISBN, Title, Date, Rating ) 
 
 Date(Day, Month, Year) 
 
-Author(ID, First Name, Last Name) 
+Author(ID<PK>, First Name, Last Name) 
 
-Genre( ID, Name) 
+Genre( ID<PK>, Name) 
 
-Trope(ID, Trope) 
+Trope(ID<PK>, Trope) 
 
 ## Functional Dependencies ##
 
