@@ -270,7 +270,7 @@ CREATE TABLE books(
     foreign key(books_genre_id) References Genre(genre_id)
 )
 
-Insert into books (books_id, books_title, books_published_date, books_rating, books_publisher_id, books_author_id, books_description, books_trope_id1, books_trope_id2, books_trope_id3, books_genre_id)
+Insert into books (books_id, books_title, books_published_date, books_rating, books_publisher_id    , books_author_id, books_description, books_trope_id1, books_trope_id2, books_trope_id3, books_genre_id)
 values (1001,'And Then There Were None','1939-6-11',4.4,2001,3001,"the story of ten strangers, each lured to Indian Island by a mysterious host. Once his guests have arrived, the host accuses each person of murder.",6001,6018,6021,5038),
 (1002,'The Winter of Our Discontent','1961-1-1',4,2002,3002,"""the novel explores the tenuous line between private and public honesty, and today ranks alongside his most acclaimed works of penetrating insight into the American condition.""",6002,6012,6022,5002),
 (1003,'Heir of Fire','2014-2-9',4.8,2003,3003,"""Celaena has survived deadly contests and shattering heartbreak-but at an unspeakable cost. Now, she must travel to a new land to confront her darkest truth…a truth about her heritage that could change her life-and her future-forever.""",6003,6013,6023,5027),
@@ -282,4 +282,7 @@ values (1001,'And Then There Were None','1939-6-11',4.4,2001,3001,"the story of 
 (1009,'A Thousand Spelndid Suns','2007-05-22',4.9,2009,3009,'description not found',6009,6019,6029,5025),
 (1010,'Fahrenheit 451','1953-10-19',3.6,2006,3010,"""Fahrenheit 451 tells the story of Guy Montag and his transformation from a book-burning fireman to a book-reading rebel. Montag lives in an oppressive society that attempts to eliminate all sources of complexity, contradiction, and confusion to ensure uncomplicated happiness for all its citizens.""",6010,6020,0000, 5039);
 
-
+Create view book_rating AS 
+Select books_title, books_rating 
+FROM books 
+ORDER By books_rating DESC;
