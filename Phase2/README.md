@@ -100,7 +100,7 @@ Book(Book_ID, Title, Fiction_or_Non, Date, Publishing_Company, Rating)
 
 Main(Book_Id, Author_Id, Genre_Id, Trope_Id)
 
-##Take Away and Improvements for future ##
+## Take Away and Improvements for future ##
 During the project we had to develop a website that acts as a face of our database and was a great learning experience to see how everything connects together. We also got the opportunity to use the sql commands and the concepts we have been learning in the class in the project and now it is more practical. The main difference between homeworks and the project is that homework is guided by the steps and questions but for the project it was open ended and creation of the outline and creating table from scratch has been a great critical thinking exercise. 
 
 If there is anything we would do different in future would be the way to uploaded the data. For this version, we uploaded 10 books data manually but if I could do it different, I would set up the website first and set up a page with a form that will let me add the data directly into database. Adding data manually through vscode required a lot of time and sometimes we are prone to do some silly mistakes and we could've avoided that if we approached it differently. 
