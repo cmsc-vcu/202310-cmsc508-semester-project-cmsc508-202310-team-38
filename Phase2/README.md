@@ -109,6 +109,10 @@ I also believe if we were able to upload more data, we could've had more room to
 
 Even though the initial plan was to connect trope and genre together, due to timing issues, we weren't able to figure it out. 
 
+## LINK to Web Application ##
+
+## LINK to VIDEO  ##
+
 ## Authors ##
 
 MAISHA MAHMOOD
