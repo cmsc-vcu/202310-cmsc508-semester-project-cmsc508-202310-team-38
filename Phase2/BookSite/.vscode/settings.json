@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cmsc508.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "HR-CMSC508",
+            "database": "202310_hr_mahmoodm4",
+            "username": "mahmoodm4",
+            "password": "Shout4_mahmoodm4_GOME"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cmsc508.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "CMSC508-team38",
+            "database": "202310_teams_team38",
+            "username": "team38",
+            "password": "Shout4_team38_GOTEAM"
+        }
+    ]
+}
