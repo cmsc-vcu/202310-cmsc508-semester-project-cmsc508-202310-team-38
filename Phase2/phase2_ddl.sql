@@ -15,6 +15,7 @@ CREATE table publisher(
     publisher_name VARCHAR(255) not null,
     primary key(publisher_id)
 )
+
 Insert into publisher (publisher_id, publisher_name)
 values(2001,'Collins Crime Club'),
 (2002,'The Viking press'),
@@ -246,9 +247,6 @@ values (0000, 'None'),
 (6028,'Deception and betrayal'),
 (6029,'Domestic Abuse');
 
-
-
-
 CREATE TABLE books(
     books_id int not NULL,
     books_title VARCHAR(255) not null,
@@ -286,3 +284,7 @@ Create view book_rating AS
 Select books_title, books_rating 
 FROM books 
 ORDER By books_rating DESC;
+
+Create view book_author AS
+select books_title, author_first, author_last 
+from books join author on books_author_id=author_id
