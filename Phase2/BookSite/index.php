@@ -13,7 +13,7 @@ include 'header.php';
 
 
 ?>
-   
+
 <div class="p-5 mb-4 bg-light rounded-3">
 	<div class="container-fluid py-4">
 
@@ -21,7 +21,7 @@ include 'header.php';
 
 		<p class="fs-4" style="font-family:'Times New Roman'">This database allows you to find books with your favorite trope. Use user login if you don't want to create a new account!
 		</br> </br>User_login: test@gmail.com 
-            </br>Password: password 
+            </br>Password: password
 		</p>
 
 	</div>

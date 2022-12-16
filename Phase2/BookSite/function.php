@@ -4,7 +4,7 @@
 
 function base_url()
 {
-	return 'http://localhost/newsite2/';
+	return 'http://localhost/booksite/';
 }
 
 function is_admin_login()
